@@ -1,10 +1,110 @@
 body {
     width: 100%;
-    /* max-width: 1300px;  */
     margin: 0 auto;
     background: 50% 0 url("assets/images/header/Layer\ 20.png") no-repeat;
 }
 
-body::before, body::after {
+/* body::before, body::after {
     content: '';
+} */
+
+.wrapper{
+    width: 1020px;
+    margin: 0 auto;
 }
+
+/* header */
+.header {
+   
+}
+
+.header-container {
+    margin-top: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    margin-top:8px;
+    
+}
+
+.logo-text {
+    margin-top: 40px;
+    margin-left: 1px;
+    font-size: 41px;
+    color: #ffffff;
+    font-family: "Lucida Sans" , sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-weight: 100;
+    text-transform: uppercase;
+    
+}
+
+.nav-bar {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 450px;
+    height: 40px;
+    background-color: #F5C506;
+    box-shadow: -4px -5px 0px rgba(245, 197, 6, 0.27), -8px -8px 0px rgba(245, 197, 6, .27);
+
+}
+.nav-bar a{
+    text-decoration: none;
+}
+
+
+.bar-item {
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #9b7d08;
+    font-family: "Segoe WP", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    border-right: 1px solid rgba(115,115,115,.1);
+    height: 39px;
+    line-height: 35px;
+    
+    text-align: center;
+    
+}
+
+.about {
+    width: calc(450px/3);
+    background: no-repeat 30px 8px url("assets/images/header/about.svg");
+    text-indent: 60px; 
+}
+.services {
+    width: calc(450px/3);
+    background: no-repeat 30px 8px url("assets/images/header/serv.svg");
+    text-indent: 43px;
+}
+.contact {
+    width: calc(450px/3);
+    background:no-repeat 20px 8px url("assets/images/header/cont.svg");
+    text-indent: 40px;
+    border-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Segoe WP";
+    src: url("assets/fonts/SegoeWP.ttf");
+}
+
+
