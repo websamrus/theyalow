@@ -1,0 +1,10 @@
+body {
+    width: 100%;
+    /* max-width: 1300px;  */
+    margin: 0 auto;
+    background: 50% 0 url("assets/images/header/Layer\ 20.png") no-repeat;
+}
+
+body::before, body::after {
+    content: '';
+}
